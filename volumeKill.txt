@@ -1,0 +1,2 @@
+--set volume with output muted -- Don't know why this isn't working, but anyway!
+set volume output volume -1 without output muted

@@ -1,0 +1,7 @@
+set iVol to output volume of (get volume settings)
+repeat until iVol = 0
+	set volume output volume iVol without output muted
+	delay 1.0E-3
+	set iVol to iVol - 1
+end repeat
+set volume with output muted
